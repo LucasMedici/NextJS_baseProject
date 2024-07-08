@@ -19,7 +19,7 @@ export default function RootLayout({children})
   return (
     <html> 
       <Head>Next teste</Head>
-      <body style={{background:'#D9D9D9'}}>
+      <body style={{background:'#D9D9D9', margin: 0, padding: 0}}>
 
         {/* se a rota é publica exibo o children, se não, exibo meu componente de PrivateRoute, que automaticamente vai tirar tudo e mandar pra Home */}
         {isPublicRoute && children} 
